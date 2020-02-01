@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddHospitalIdToUsers extends Migration
+class AddSpecialtiesIdToUsersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,8 +14,8 @@ class AddHospitalIdToUsers extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->integer('hospital_id')->unsigned()->index()->nullable();
-            $table->foreign('hospital_id')->references('id')
+            $table->integer('specialties_id')->unsigned()->index()->nullable();
+            $table->foreign('specialties_id')->references('id')
                 ->on('users')
                 ->onDelete('cascade');
         });
