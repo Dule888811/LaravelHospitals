@@ -8,11 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Role extends  Model
 {
     protected $fillable = [
-        'name',
+        'name'
     ];
 
     public function User()
     {
-        return $this->belongsTo('App\User)';
+        return $this->belongsTo('App\User');
     }
 }
