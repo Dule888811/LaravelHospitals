@@ -24,4 +24,6 @@ Route::namespace('Admin')->prefix('admin')->name('admin.')->group(function(){
    Route::get('msin','MainController@index')->name('main');
     Route::resource('hospitals','HospitalsController');
     Route::resource('specialties','SpecialtiesController');
+    Route::get('specialtiesDelete/{id}','SpecialtiesController@delete')->name('specialties.delete');
+    Route::post('specialtiesDeleted/{id}','SpecialtiesController@deleted')->name('specialties.deleted');
 });
