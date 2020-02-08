@@ -29,6 +29,8 @@
                 <li class="li-products"><img width="30%" height="30%" src='data:image/jpeg; base64,{{$hospital->image}} '> </li>
                 <li class="li-products"><a class="btn btn-primary"  href ="{{route('admin.hospitals.edit',$hospital->id)}}">Edit</a></li>
                 <li class="li-products"><a class="btn btn-primary"  href ="{{route('admin.hospitals.delete',$hospital->id)}}">Delete</a></li>
+                <li class="li-products"><a class="btn btn-primary"  href ="{{route('admin.users.index',$hospital->id)}}">See alll doctors</a></li>
+                <li class="li-products"><a class="btn btn-primary"  href ="{{route('admin.users.create',$hospital->id)}}">Add doctor</a></li>
             </ul>
             </div>
             <hr class="hrli">
