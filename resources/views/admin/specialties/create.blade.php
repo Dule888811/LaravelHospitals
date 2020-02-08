@@ -10,9 +10,9 @@
     <form action ="{{route('admin.specialties.store')}}" method="POST">
         {{csrf_field()}}
         <div class="form-input">
-            <label for="product_name">Specialtiy name:
+            <label for="specialtiy_name">Specialtiy name:
                 <input type="text" name="specialtiy_name" id="specialtiy_name"></label>
-                <input type="submit" name="specialtiy"  value="Create"><br/>
+                <input type="submit"  value="Create"><br/>
         </div>
     </form>
     <a href ="{{route('admin.main')}}">Back to maintaining</a>

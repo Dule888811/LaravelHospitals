@@ -14,7 +14,7 @@ class AddImageToHospitalsTable extends Migration
     public function up()
     {
         Schema::table('hospitals', function (Blueprint $table) {
-            $table->text('image');
+            $table->longText('image');
         });
     }
 

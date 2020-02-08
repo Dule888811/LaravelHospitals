@@ -9,8 +9,8 @@
         {{method_field('PUT')}}
         {{csrf_field()}}
         <div class="form-input">
-            <label for="product_name">Specialtiy name:
-                <input type="text"  value="{{$specialty->title}}" name="spec" id="spec"></label>
+            <label for="spec">Specialtiy name:
+                <input type="text"   value="{{$specialty->title}}" name="spec" id="spec"></label>
             <input type="submit"  value="Update"><br/>
         </div>
     </form>

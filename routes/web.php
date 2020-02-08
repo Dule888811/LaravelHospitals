@@ -26,4 +26,6 @@ Route::namespace('Admin')->prefix('admin')->name('admin.')->group(function(){
     Route::resource('specialties','SpecialtiesController');
     Route::get('specialtiesDelete/{id}','SpecialtiesController@delete')->name('specialties.delete');
     Route::post('specialtiesDeleted/{id}','SpecialtiesController@deleted')->name('specialties.deleted');
+    Route::get('hospitalDelete/{id}','HospitalsController@delete')->name('hospitals.delete');
+    Route::post('hospitalDeleted/{id}','HospitalsController@deleted')->name('hospitals.deleted');
 });

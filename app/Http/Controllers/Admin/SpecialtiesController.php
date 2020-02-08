@@ -45,7 +45,7 @@ class SpecialtiesController extends Controller
         $speciality = new Specialty();
         $speciality->name = $request->specialtiy_name;
         $speciality->save();
-        return redirect()->back();
+        return redirect()->route('admin.main');
     }
 
     /**
@@ -82,7 +82,7 @@ class SpecialtiesController extends Controller
 
         $specialty->name = $request->spec;
         $specialty->update();
-        return redirect()->back();
+        return redirect()->route('admin.main');
     }
 
     /**
@@ -103,13 +103,10 @@ class SpecialtiesController extends Controller
 
     public function deleted($id)
     {
-        $url = url()->full();
-        $urlArr = explode('/',$url);
-        $id = end($urlArr);
         $specialty  = Specialty::find($id);
         $specialty->active = 0;
         $specialty->deleted_at = Carbon::now();
         $specialty->update();
-        return redirect()->back();
+        return redirect()->route('admin.main');
     }
 }
