@@ -6,16 +6,16 @@
             {{$error}}<br>
         @endforeach
     @endif
-    <form action ="{{route('admin.hospitals.edit')}}" method="POST" enctype="multipart/form-data">
+    <form action ="{{route('admin.hospitals.update',$hospital)}}" method="POST" enctype="multipart/form-data">
+        {{method_field('PUT')}}
         {{csrf_field()}}
         <div class="form-input">
-            <label for="hospital_name">Hospital name:
-                <input type="text"placeholder="{{$hospital->name}}" name="hospital_name" id="hospital_name"></label>
-            <input type="submit"   value="Create"><br/>
+            <label for="hospital_name">Hospital name:</label>
+                <input type="text" placeholder="{{$hospital->name}}" name="hospital_name" id="hospital_name"></label>
         </div>
         <div class="form-input">
             <label for="image">Upload new picture</label>
-            <input  type="file" name="image">
+            <input  type="file" name="imageHospital">
         </div>
         <input type="submit" value="Edit">
     </form>

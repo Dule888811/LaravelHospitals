@@ -8,7 +8,7 @@
     <form action ="{{route('admin.hospitals.deleted',$id)}}" method="POST">
         {{csrf_field()}}
         <div class="form-input">
-            <label for="del">Are you sure you want to delete?
+            <label for="del">Are you sure you want to delete?</label>
                 <input type="submit"   value="Delete"><br/>
         </div>
     </form>

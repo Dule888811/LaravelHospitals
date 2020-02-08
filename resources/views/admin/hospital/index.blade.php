@@ -21,6 +21,7 @@
     @endif
     <div class="list">
         @foreach($hospitals as $hospital)
+            @if($hospital->active == 1)
             <div  class="flex-container">
             <ul class="ul-products">
                 <li class="li-products">Hospital name: {{$hospital->name}}</li>
@@ -31,6 +32,7 @@
             </ul>
             </div>
             <hr class="hrli">
+            @endif
         @endforeach
     </div>
     <hr>

@@ -58,7 +58,6 @@ class HospitalsController extends Controller
           $hospital = new Hospital();
           $hospital->serial_number = $serial_number;
           $hospital->name = $request->hospital_name;
-          dd(file_get_contents($_FILES['image']['tmp_name']));
           $image = file_get_contents($_FILES['image']['tmp_name']);
           $image = base64_encode($image);
           $hospital->image = $image;
@@ -102,7 +101,7 @@ class HospitalsController extends Controller
      */
     public function edit(Hospital $hospital)
     {
-        //
+        return view('admin.hospital.edit')->with(['hospital' => $hospital]);
     }
 
     /**
@@ -114,7 +113,15 @@ class HospitalsController extends Controller
      */
     public function update(Request $request, Hospital $hospital)
     {
-        //
+        $hospital->name = $request->hospital_name;
+        if ($request->imageHospital)
+        {
+            $image = file_get_contents($_FILES['imageHospital']['tmp_name']);
+            $image = base64_encode($image);
+            $hospital->image = $image;
+        }
+        $hospital->update();
+        return redirect()->route('admin.main');
     }
 
     /**
@@ -125,12 +132,12 @@ class HospitalsController extends Controller
      */
     public function destroy(Hospital $hospital)
     {
-        //
+
     }
 
     public function delete($id)
     {
-        return view('admin.specialties.delete')->with(['id' => $id]);
+        return view('admin.hospital.delete')->with(['id' => $id]);
     }
 
     public function deleted($id)
@@ -139,6 +146,6 @@ class HospitalsController extends Controller
         $hospital->active = 0;
         $hospital->deleted_at = Carbon::now();
         $hospital->update();
-        return redirect()->back();
+        return redirect()->route('admin.main');
     }
 }
