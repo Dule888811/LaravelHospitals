@@ -14,8 +14,8 @@ class AddTargetSpecialtiesToNotifications extends Migration
     public function up()
     {
         Schema::table('notifications', function (Blueprint $table) {
-            $table->integer('target_specialties')->unsigned()->index()->nullable();
-            $table->foreign('target_specialties')->references('id')
+            $table->string('target_specialties')->index()->nullable();
+            $table->foreign('target_specialties')->references('email')
                 ->on('users')
                 ->onDelete('cascade');
         });
