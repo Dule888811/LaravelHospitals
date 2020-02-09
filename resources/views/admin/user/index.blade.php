@@ -1,3 +1,5 @@
+@extends('layouts.app')
+
 @section('content')
     @if(count($errors))
         @foreach($errors->all() as $error)
@@ -7,13 +9,15 @@
     <div class="list">
         @foreach($users as $user)
             @if($user->is_admin != 1)
-                <div  class="flex-container">
+                <div  class="list-group">
                     <ul class="ul-products">
                         <li class="li-products">Doctor name: {{$user->name}}</li>
-                        <li class="li-products">Doctor specialty: {{$user->specialty}}</li>
+                        <li class="li-products">Doctor surname: {{$user->surname}}</li>
+                        <li class="li-products">Doctor specialty: {{$user->specialty()->first()->name}}</li>
+                        <li class="li-products">Doctor specialty: {{$user->hospital()->first()->name}}</li>
                     </ul>
                 </div>
-                <hr class="hrli">
+                <hr>
             @endif
         @endforeach
     </div>

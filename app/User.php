@@ -39,9 +39,9 @@ class User extends Authenticatable
 
 
 
-    public function Specialties()
+    public function Specialty()
     {
-        return $this->hasMany('App\Specialty');
+        return $this->belongsTo('App\Specialty');
     }
 
     public function Notifications()
