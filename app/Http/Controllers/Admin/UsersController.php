@@ -34,8 +34,13 @@ class UsersController extends Controller
      */
     public function create()
     {
+        $url = url()->full();
+        $url = explode('?',$url);
+         $url = $url[1];
+         $id = explode('=',$url);
+         $id = $id[0];
         $specialties = Specialty::all();
-        return view('admin.user.create')->with(['specialties' => $specialties]);;
+        return view('admin.user.create')->with(['specialties' => $specialties,'hospital_id' => $id]);
     }
 
     /**
@@ -53,14 +58,25 @@ class UsersController extends Controller
             'email' => 'required|email|unique:users',
             'specialty' => 'required',
         ]);
-        $user = new User([
+
+     /*   $user = new User([
             'name' => $request->doctor_name,
             'surname' => $request->doctor_surname,
             'address' => $request->doctor_address,
             'email' => $request->email,
             'specialties_id' => $request->specialty,
+            'hospital_id' => $request->hospital,
             'password' => ''
-        ]);
+        ]); */
+        $user = new User();
+        $user->name = $request->doctor_name;
+        $user->surname = $request->doctor_surname;
+        $user->address = $request->doctor_address;
+        $user->email = $request->email;
+     //   dd($request->specialty);
+        $user->specialty_id = $request->specialty;
+        $user->hospital_id = $request->hospital;
+        $user->password = '';
         $user->save();
         return redirect()->route('admin.main');
     }

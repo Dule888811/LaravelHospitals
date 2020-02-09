@@ -28,9 +28,16 @@
                 <label for="specialty">Specialty:</label>
                 <select id="specialty" name="specialty">
                     @foreach($specialties as $specialty)
-                    <option name="specVal" value="{{$specialty->id}}">{{$specialty->name}}</option>
+                     @if($specialty->active == 1)
+                    <option  value="{{$specialty->id}}">{{$specialty->name}}</option>
+                      @endif
                     @endforeach
                 </select>
+        </div>
+        <div class="form-input">
+            <select id="hospital" name="hospital">
+                    <option  value="{{$hospital_id}}" selected></option>
+            </select>
         </div>
         <input type="submit"   value="Add doctor"><br/>
     </form>

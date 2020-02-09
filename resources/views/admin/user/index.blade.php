@@ -6,11 +6,11 @@
     @endif
     <div class="list">
         @foreach($users as $user)
-            @if($user->role_id != 1)
+            @if($user->is_admin != 1)
                 <div  class="flex-container">
                     <ul class="ul-products">
-                        <li class="li-products">Hospital name: {{$user->name}}</li>
-                        <li class="li-products">Hospital serial number: {{$user->specialties}}</li>
+                        <li class="li-products">Doctor name: {{$user->name}}</li>
+                        <li class="li-products">Doctor specialty: {{$user->specialty}}</li>
                     </ul>
                 </div>
                 <hr class="hrli">

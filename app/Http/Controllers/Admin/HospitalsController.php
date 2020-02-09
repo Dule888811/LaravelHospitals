@@ -27,6 +27,8 @@ class HospitalsController extends Controller
      */
     public function create()
     {
+
+
         return view('admin.hospital.create');
     }
 
