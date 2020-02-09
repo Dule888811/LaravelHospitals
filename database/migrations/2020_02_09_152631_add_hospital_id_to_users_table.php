@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddUserIdToHospitalsTable extends Migration
+class AddHospitalIdToUsersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,11 @@ class AddUserIdToHospitalsTable extends Migration
      */
     public function up()
     {
-        Schema::table('hospitals', function (Blueprint $table) {
-            $table->integer('user_id')->unsigned()->index()->nullable();
-            $table->foreign('user_id')->references('id')
+        Schema::table('users', function (Blueprint $table) {
+            $table->integer('hospital_id')->unsigned()->index()->nullable();
+            $table->foreign('hospital_id')->references('id')
                 ->on('users')
                 ->onDelete('cascade');
-
         });
     }
 
@@ -29,6 +28,8 @@ class AddUserIdToHospitalsTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::table('users', function (Blueprint $table) {
+            //
+        });
     }
 }

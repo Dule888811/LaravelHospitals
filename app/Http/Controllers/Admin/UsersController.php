@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Hospital;
 use App\Http\Controllers\Controller;
+use App\Specialty;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-
+use Illuminate\Database\Eloquent\Builder;
 class UsersController extends Controller
 {
     /**
@@ -32,7 +34,8 @@ class UsersController extends Controller
      */
     public function create()
     {
-        //
+        $specialties = Specialty::all();
+        return view('admin.user.create')->with(['specialties' => $specialties]);;
     }
 
     /**
@@ -43,7 +46,23 @@ class UsersController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'doctor_name' => 'required',
+            'doctor_surname' => 'required',
+            'doctor_address' => 'required',
+            'email' => 'required|email|unique:users',
+            'specialty' => 'required',
+        ]);
+        $user = new User([
+            'name' => $request->doctor_name,
+            'surname' => $request->doctor_surname,
+            'address' => $request->doctor_address,
+            'email' => $request->email,
+            'specialties_id' => $request->specialty,
+            'password' => ''
+        ]);
+        $user->save();
+        return redirect()->route('admin.main');
     }
 
     /**
