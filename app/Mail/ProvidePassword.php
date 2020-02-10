@@ -29,6 +29,6 @@ class ProvidePassword extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.password')->with(['user' => Auth::user()]);
+        return $this->view('emails.password');
     }
 }

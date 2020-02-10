@@ -9,9 +9,9 @@ class Specialty  extends Model
     protected $fillable = [
         'name', 'deleted_at', 'active'
     ];
-    public function User()
+    public function Users()
     {
-        return $this->belongsTo('App\User');
+        return $this->hasMany('App\User');
     }
 
 }
