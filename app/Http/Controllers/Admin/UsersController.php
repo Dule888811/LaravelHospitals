@@ -9,6 +9,9 @@ use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Database\Eloquent\Builder;
+use App\Mail\ProvidePassword;
+use Illuminate\Support\Facades\Mail;
+
 class UsersController extends Controller
 {
     /**
@@ -16,10 +19,10 @@ class UsersController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function __construct()
+ /*   public function __construct()
     {
         $this->middleware('auth');
-    }
+    } */
 
     public function index()
     {
@@ -73,11 +76,11 @@ class UsersController extends Controller
         $user->surname = $request->doctor_surname;
         $user->address = $request->doctor_address;
         $user->email = $request->email;
-     //   dd($request->specialty);
         $user->specialty_id = $request->specialty;
         $user->hospital_id = $request->hospital;
         $user->password = '';
         $user->save();
+        Mail::to($user)->send(new ProvidePassword);
         return redirect()->route('admin.main');
     }
 
