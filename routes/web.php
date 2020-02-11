@@ -18,6 +18,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/notification','NotificationController@index')->name('notification.index');
+Route::get('/notification/create/{user}','NotificationController@create')->name('notification.create');
+Route::post('/notification/store/{user}','NotificationController@store')->name('notification.store');
 Route::get('/doctors/index/{user}', 'DoktorsController@index')->name('doctor.index');
 Route::get('/passwordUpdate/{user}','DoktorsController@showForm')->name('doktor.showForm');
 Route::post('/password/{user}','DoktorsController@update')->name('doktor.password');

@@ -5,7 +5,7 @@ namespace App;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-
+use Illuminate\Database\Eloquent\Model;
 class User extends Authenticatable
 {
     use Notifiable;
@@ -46,7 +46,7 @@ class User extends Authenticatable
 
     public function Notifications()
     {
-        return $this->hasMany('App\Notification');
+        return $this->hasMany('App\Notification','target_specialties','email');
     }
 
     public function Hospital()

@@ -15,6 +15,7 @@
                         <li class="li-products">Doctor surname: {{$user->surname}}</li>
                         <li class="li-products">Doctor specialty: {{$user->specialty()->first()->name}}</li>
                         <li class="li-products">Doctor specialty: {{$user->hospital()->first()->name}}</li>
+                        <p class="doctor"><a class="btn btn-primary" href ="{{route('notification.create',$user)}}">Send notification</a>
                     </ul>
                 </div>
                 <hr>
