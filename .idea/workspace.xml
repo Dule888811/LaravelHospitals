@@ -7,25 +7,84 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_31_010842_create_notifications_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_31_012234_create_hospitals_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_31_014808_add_target_specialties_to_notifications.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_31_020256_add_surname_to_users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/database/migrations/create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/database/migrations/create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HospitalLaravel/HospitalsLaravel/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../HumanityProject.7z" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DoktorsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DoktorsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Mail/ProvidePassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/ProvidePassword.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Specialty.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Specialty.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/doctors/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/doctors/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_31_010842_create_notifications_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_31_010842_create_notifications_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_31_012234_create_hospitals_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_31_012234_create_hospitals_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_31_014808_add_target_specialties_to_notifications.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_31_014808_add_target_specialties_to_notifications.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_31_020256_add_surname_to_users.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_31_020256_add_surname_to_users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_01_085117_add_image_to_hospitals_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_01_085117_add_image_to_hospitals_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_01_103232_add_address_to_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_01_103232_add_address_to_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_01_162712_create_specialties_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_01_162712_create_specialties_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_01_163322_add_specialties_id_to_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_09_152631_add_hospital_id_to_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_09_152631_add_hospital_id_to_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_09_155320_add_is_admin_to_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_09_155320_add_is_admin_to_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_09_184202_update_specialties_id_users.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/doctors/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/doctors/password.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/emails/password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/password.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LaravelApiTest" beforeDir="false" afterPath="$PROJECT_DIR$/../../LaravelApiTest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LaravelModules" beforeDir="false" afterPath="$PROJECT_DIR$/../../LaravelModules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MVC" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/resources/lang/en/passwords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../laravelApiPhpTest/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../laravelApiPhpTest/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,49 +101,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/doctors/index.blade.php">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_09_152631_add_hospital_id_to_users_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/user/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="108" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
-              <folding>
-                <element signature="e#46#63#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/user/create.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+            <state relative-caret-position="68">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -92,20 +112,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Mail/ProvidePassword.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+            <state relative-caret-position="19">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding>
-                <element signature="e#28#57#0#PHP" expanded="true" />
+                <element signature="e#28#41#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+        <entry file="file://$PROJECT_DIR$/resources/views/emails/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="85">
+              <caret line="5" column="83" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -113,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+            <state relative-caret-position="221">
+              <caret line="22" column="56" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -122,17 +142,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DoktorsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="289">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/emails/password.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/doctors/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_09_155320_add_is_admin_to_users_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -145,20 +183,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/MainController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_02_01_160516_2020_01_31_010037_create_specialties_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_02_01_161000_create_specialties_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_02_01_101157_add_specialties_id_to_users_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_02_01_103232_add_address_to_users_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_02_01_162712_create_specialties_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/specialties/delete.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/specialties/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/specialties/create.blade.php" />
         <option value="$PROJECT_DIR$/storage/logs/laravel.log" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_01_31_012234_create_hospitals_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_02_01_085117_add_image_to_hospitals_table.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/specialties/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/hospital/delete.blade.php" />
@@ -166,18 +193,13 @@
         <option value="$PROJECT_DIR$/database/factories/RoleFactory.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_02_01_084626_add_role_id_to_users_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_02_09_152631_add_hospital_id_to_users_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_02_01_084626_add_is_admin_to_users_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_02_01_084626_add_admin_to_users_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_02_09_155320_add_is_admin_to_users_table.php" />
         <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_02_01_163322_add_specialties_id_to_users_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_01_31_014808_add_target_specialties_to_notifications.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/hospital/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/SpecialtiesController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/HospitalsController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/user/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Hospital.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_02_09_184202_update_specialties_id_users.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/hospital/index.blade.php" />
@@ -186,16 +208,32 @@
         <option value="$PROJECT_DIR$/resources/views/admin/hospital/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/doctors/passwordUpdate.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/doctors/password.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/doctors/index.blade.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Specialty.php" />
-        <option value="$PROJECT_DIR$/resources/views/emails/password.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/DoktorsController.php" />
-        <option value="$PROJECT_DIR$/app/Mail/ProvidePassword.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/views/admin/user/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_02_01_163322_add_specialties_id_to_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_01_31_010842_create_notifications_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_01_31_012234_create_hospitals_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_01_31_014808_add_target_specialties_to_notifications.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_01_31_020256_add_surname_to_users.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_02_01_103232_add_address_to_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_02_01_085117_add_image_to_hospitals_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_02_01_162712_create_specialties_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_02_01_163322_add_specialty_id_to_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_02_09_152631_add_hospital_id_to_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_02_09_155320_add_is_admin_to_users_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/user/create.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_02_10_215447_add_specialty_id_to_users_table.php" />
+        <option value="$PROJECT_DIR$/app/Mail/ProvidePassword.php" />
+        <option value="$PROJECT_DIR$/resources/views/emails/index.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/emails/password.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/DoktorsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/doctors/index.blade.php" />
       </list>
     </option>
   </component>
@@ -295,7 +333,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-2" />
     <option name="y" value="1" />
     <option name="width" value="1044" />
@@ -307,7 +345,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -350,6 +387,11 @@
             <path>
               <item name="LaraveLHospitals" type="b2602c69:ProjectViewProjectNode" />
               <item name="LaraveLHospitals" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LaraveLHospitals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LaraveLHospitals" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -364,14 +406,6 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LaraveLHospitals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LaraveLHospitals" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LaraveLHospitals" type="b2602c69:ProjectViewProjectNode" />
@@ -396,6 +430,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -468,12 +503,15 @@
       <workItem from="1581331726741" duration="9386000" />
       <workItem from="1581347291835" duration="1393000" />
       <workItem from="1581349568921" duration="2988000" />
-      <workItem from="1581353100719" duration="1431000" />
+      <workItem from="1581353100719" duration="1857000" />
+      <workItem from="1581356070746" duration="476000" />
+      <workItem from="1581358405301" duration="15064000" />
+      <workItem from="1581433476075" duration="2098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155136000" />
+    <option name="totallyTimeSpent" value="173200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -485,15 +523,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="1" width="1044" height="726" extended-state="0" />
+    <frame x="-2" y="1" width="1044" height="726" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49805447" visible="true" weight="0.30589432" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49805447" visible="true" weight="0.32418698" />
       <window_info id="Structure" order="1" show_stripe_button="false" sideWeight="0.5019455" side_tool="true" weight="0.27161863" />
       <window_info id="npm" order="2" show_stripe_button="false" side_tool="true" />
       <window_info id="Favorites" order="3" show_stripe_button="false" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -536,96 +574,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Role.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_01_31_024417_create_roles_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_01_103232_add_address_to_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_01_162712_create_specialties_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_01_31_020256_add_surname_to_users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_09_152631_add_hospital_id_to_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_01_084626_add_admin_to_users_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_01_085117_add_image_to_hospitals_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_09_155320_add_is_admin_to_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_01_163322_add_specialties_id_to_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_01_31_010842_create_notifications_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_01_31_014808_add_target_specialties_to_notifications.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/doctor/create.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/admin/hospital/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -634,25 +582,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Hospital.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/HospitalsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#46#63#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/verify.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
@@ -683,6 +614,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_09_184202_update_specialties_id_users.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/hospital/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="9" selection-start-column="6" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/MainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#46#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Notification.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -690,9 +674,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_09_184202_update_specialties_id_users.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/specialties/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="238">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/user/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="108" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/specialties/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/main/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/HospitalsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#46#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Hospital.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
@@ -704,33 +726,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/hospital/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="9" selection-start-column="6" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/MainController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#46#82#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/main/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="98" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/SpecialtiesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
+        <state relative-caret-position="-862">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
             <element signature="e#46#82#0#PHP" expanded="true" />
@@ -738,12 +736,158 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/specialties/edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="391">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="25" selection-end-column="50" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_01_31_010842_create_notifications_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_01_31_012234_create_hospitals_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_01_31_014808_add_target_specialties_to_notifications.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_01_31_020256_add_surname_to_users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_01_085117_add_image_to_hospitals_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_01_103232_add_address_to_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_01_163322_add_specialty_id_to_users_table.php" />
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#24#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#46#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/user/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_01_162712_create_specialties_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_10_215447_add_specialty_id_to_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Specialty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_09_152631_add_hospital_id_to_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_09_155320_add_is_admin_to_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/ProvidePassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#28#41#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="83" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DoktorsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/doctors/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/doctors/password.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -752,116 +896,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/doctors/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/specialties/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#24#79#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Specialty.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/emails/password.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="99" selection-start-line="2" selection-start-column="99" selection-end-line="2" selection-end-column="99" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/doctors/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/user/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DoktorsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mail/ProvidePassword.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding>
-            <element signature="e#28#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/user/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="108" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
-          <folding>
-            <element signature="e#46#63#0#PHP" expanded="true" />
-          </folding>
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

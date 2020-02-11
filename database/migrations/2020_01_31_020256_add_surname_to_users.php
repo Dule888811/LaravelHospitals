@@ -15,6 +15,9 @@ class AddSurnameToUsers extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             $table->string('surname')->nullable();
+            $table->engine = 'InnoDB';
+            $table->charset = 'utf8';
+            $table->collation = 'utf8_unicode_ci';
         });
     }
 

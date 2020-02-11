@@ -15,6 +15,9 @@ class AddAddressToUsersTable extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             $table->string('address')->nullable();
+            $table->engine = 'InnoDB';
+            $table->charset = 'utf8';
+            $table->collation = 'utf8_unicode_ci';
         });
     }
 

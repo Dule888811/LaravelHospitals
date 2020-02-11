@@ -15,6 +15,9 @@ class AddIsAdminToUsersTable extends Migration
     {
             Schema::table('users', function (Blueprint $table) {
                 $table->boolean('is_admin')->default(false);
+                $table->engine = 'InnoDB';
+                $table->charset = 'utf8';
+                $table->collation = 'utf8_unicode_ci';
             });
     }
 

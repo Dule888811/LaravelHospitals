@@ -19,6 +19,9 @@ class CreateSpecialtiesTable extends Migration
             $table->string('name');
             $table->timestamp('deleted_at')->nullable();
             $table->timestamps();
+            $table->engine = 'InnoDB';
+            $table->charset = 'utf8';
+            $table->collation = 'utf8_unicode_ci';
         });
     }
 

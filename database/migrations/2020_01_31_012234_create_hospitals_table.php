@@ -20,6 +20,9 @@ class CreateHospitalsTable extends Migration
             $table->timestamp('deleted_at')->nullable();
             $table->string('serial_number')->unique();
             $table->timestamps();
+            $table->engine = 'InnoDB';
+            $table->charset = 'utf8';
+            $table->collation = 'utf8_unicode_ci';
         });
     }
 

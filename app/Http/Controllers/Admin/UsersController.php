@@ -62,15 +62,7 @@ class UsersController extends Controller
             'specialty' => 'required',
         ]);
 
-     /*   $user = new User([
-            'name' => $request->doctor_name,
-            'surname' => $request->doctor_surname,
-            'address' => $request->doctor_address,
-            'email' => $request->email,
-            'specialties_id' => $request->specialty,
-            'hospital_id' => $request->hospital,
-            'password' => ''
-        ]); */
+
         $user = new User();
         $user->name = $request->doctor_name;
         $user->surname = $request->doctor_surname;
@@ -80,7 +72,7 @@ class UsersController extends Controller
         $user->hospital_id = $request->hospital;
         $user->password = '';
         $user->save();
-        Mail::to($user)->send(new ProvidePassword);
+        Mail::to($user)->send(new ProvidePassword($user));
         return redirect()->route('admin.main');
     }
 
@@ -94,6 +86,8 @@ class UsersController extends Controller
     {
         //
     }
+
+
 
     /**
      * Show the form for editing the specified resource.

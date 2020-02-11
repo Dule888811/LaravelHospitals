@@ -15,6 +15,9 @@ class AddImageToHospitalsTable extends Migration
     {
         Schema::table('hospitals', function (Blueprint $table) {
             $table->longText('image');
+            $table->engine = 'InnoDB';
+            $table->charset = 'utf8';
+            $table->collation = 'utf8_unicode_ci';
         });
     }
 

@@ -14,7 +14,7 @@ class DoktorsController extends Controller
      */
     public function index()
     {
-        return view('doctors.index');
+
     }
 
     /**
@@ -24,7 +24,7 @@ class DoktorsController extends Controller
      */
     public function create()
     {
-        //
+
     }
 
     /**
@@ -49,6 +49,11 @@ class DoktorsController extends Controller
         //
     }
 
+    public function showForm(User $user)
+    {
+        return view('emails.password')->with(['user' => $user]);
+    }
+
     /**
      * Show the form for editing the specified resource.
      *
@@ -69,7 +74,9 @@ class DoktorsController extends Controller
      */
     public function update(Request $request, User $user)
     {
-        //
+        $user->password = $request->doctor_password;
+        $user->save();
+
     }
 
     /**

@@ -13,11 +13,15 @@ class AddHospitalIdToUsersTable extends Migration
      */
     public function up()
     {
+        Schema::enableForeignKeyConstraints();
         Schema::table('users', function (Blueprint $table) {
             $table->integer('hospital_id')->unsigned()->index()->nullable();
             $table->foreign('hospital_id')->references('id')
                 ->on('users')
                 ->onDelete('cascade');
+            $table->engine = 'InnoDB';
+            $table->charset = 'utf8';
+            $table->collation = 'utf8_unicode_ci';
         });
     }
 
