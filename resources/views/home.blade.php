@@ -16,7 +16,9 @@
                     @can('admin')
                           <a href ="{{route('admin.main')}}">Back to maintaining</a>
                     @endcan
+                        @if(\Illuminate\Support\Facades\Auth::user()->is_admin == 0)
                         <a href ="{{route('notification.index')}}">See Notifications</a>
+                        @endif
                 </div>
             </div>
         </div>

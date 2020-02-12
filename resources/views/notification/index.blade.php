@@ -6,7 +6,9 @@
             {{$error}}<br>
         @endforeach
     @endif
-
+    @if(count($notifications) == 0)
+       <p>You don't have any notifications yet</p>
+     @endif
     @foreach($notifications as $notification)
      <div>
         <p>{{$notification['notification_content']}}</p>
