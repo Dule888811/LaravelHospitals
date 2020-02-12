@@ -16,7 +16,7 @@
                     @can('admin')
                           <a href ="{{route('admin.main')}}">Back to maintaining</a>
                     @endcan
-                    You are logged in!
+                        <a href ="{{route('notification.index')}}">See Notifications</a>
                 </div>
             </div>
         </div>

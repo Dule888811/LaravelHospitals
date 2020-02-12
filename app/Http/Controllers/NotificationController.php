@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\User;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use App\Notification;
 use Illuminate\Support\Facades\Auth;
@@ -50,6 +51,20 @@ class NotificationController extends Controller
         $notification->target_specialties = $user->email;
         $notification->save();
         return redirect()->route('admin.main');
+    }
+
+
+
+    public function seen()
+    {
+        $url = url()->full();
+        $url = explode('/',$url);
+        $id = end($url);
+        $notification = Notification::find($id);
+        $notification->seen = true;
+        $notification->seen_at = Carbon::now();
+        $notification->save();
+        return redirect()->route('home');
     }
 
 
