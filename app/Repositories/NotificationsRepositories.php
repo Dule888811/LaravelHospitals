@@ -14,7 +14,12 @@ class NotificationsRepositories implements NotificationsRepositoriesInterface
 {
     public function index()
     {
-        return Auth::user()->Notifications()->get()->toArray();
+        if(Auth::user()){
+            return Auth::user()->Notifications()->get()->toArray();
+        }else{
+            return $notifications = array();
+        }
+
     }
 
     public function store(Request $request, User $user)
