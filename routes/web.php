@@ -25,7 +25,7 @@ Route::post('/notification/store/{user}','NotificationController@store')->name('
 Route::get('/doctors/index/{user}', 'DoktorsController@index')->name('doctor.index');
 Route::get('/passwordUpdate/{user}','DoktorsController@showForm')->name('doktor.showForm');
 Route::post('/password/{user}','DoktorsController@update')->name('doktor.password');
-Route::namespace('Admin')->prefix('admin')->name('admin.')->group(function(){
+Route::namespace('Admin')->prefix('admin')->name('admin.')->middleware('can:admin')->group(function(){
    Route::resource('users','UsersController');
    Route::get('msin','MainController@index')->name('main');
     Route::resource('hospitals','HospitalsController');
