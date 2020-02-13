@@ -15,5 +15,5 @@
             <input type="submit"  value="Send"><br/>
         </div>
     </form>
-    <a href ="{{route('admin.main')}}">Back to maintaining</a>
+   <a href ="{{route('admin.main')}}">Back to maintaining</a>
 @endsection

@@ -28,10 +28,11 @@
                 <label for="specialty">Specialty:</label>
                 <select id="specialty" name="specialty">
                     @foreach($specialties as $specialty)
-                     @if($specialty->active == 1)
-                    <option  value="{{$specialty->id}}">{{$specialty->name}}</option>
-                      @endif
+                         @if($specialty->active == 1)
+                             <option  value="{{$specialty->id}}">{{$specialty->name}}</option>
+                        @endif
                     @endforeach
+
                 </select>
         </div>
         <div class="form-input">

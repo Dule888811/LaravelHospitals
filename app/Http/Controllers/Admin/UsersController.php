@@ -19,10 +19,10 @@ class UsersController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
- /*   public function __construct()
+    public function __construct()
     {
         $this->middleware('auth');
-    } */
+    } 
 
     public function index()
     {
@@ -60,6 +60,7 @@ class UsersController extends Controller
             'doctor_address' => 'required',
             'email' => 'required|email|unique:users',
             'specialty' => 'required',
+            'hospital' => 'required'
         ]);
 
 
@@ -70,58 +71,12 @@ class UsersController extends Controller
         $user->email = $request->email;
         $user->specialty_id = $request->specialty;
         $user->hospital_id = $request->hospital;
-        $user->password = '';
         $user->save();
         Mail::to($user)->send(new ProvidePassword($user));
         return redirect()->route('admin.main');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\User  $user
-     * @return \Illuminate\Http\Response
-     */
-    public function show(User $user)
-    {
-        //
-    }
 
-
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\User  $user
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(User $user)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\User  $user
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, User $user)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\User  $user
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(User $user)
-    {
-        //
-    }
 
 
 
