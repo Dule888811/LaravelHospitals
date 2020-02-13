@@ -41,10 +41,12 @@ class LoginController extends Controller
 
     public function redirectTo()
     {
-        if(Auth::user()->role_id == 1)
+        if(Auth::user()->is_admin == 1)
         {
             $this->redirectTo = route('admin.main');
             return $this->redirectTo;
+        }else{
+            return $this->redirectTo  = route('notification.index');
         }
     }
 
