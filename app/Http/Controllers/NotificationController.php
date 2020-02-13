@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Repositories\NotificationsRepositories;
+use App\Repositories\NotificationsRepositoriesInterface;
 use App\User;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -17,9 +19,16 @@ class NotificationController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    private $_notificationsRepositories;
+
+    public function __construct(NotificationsRepositoriesInterface $notificationsRepositories)
+    {
+        $this->_notificationsRepositories = $notificationsRepositories;
+    }
+
     public function index()
     {
-        $notifications = Auth::user()->Notifications()->get()->toArray();
+        $notifications = $this->_notificationsRepositories->index();
         return view('notification.index')->with(['notifications' => $notifications]);
     }
 
@@ -45,11 +54,7 @@ class NotificationController extends Controller
      */
     public function store(Request $request, User $user)
     {
-       $notification = new Notification();
-        $notification->seen = false;
-        $notification->notification_content	= $request->notification_content;
-        $notification->target_specialties = $user->email;
-        $notification->save();
+        $this->_notificationsRepositories->store($request,$user);
         return redirect()->route('admin.main');
     }
 
@@ -60,10 +65,7 @@ class NotificationController extends Controller
         $url = url()->full();
         $url = explode('/',$url);
         $id = end($url);
-        $notification = Notification::find($id);
-        $notification->seen = true;
-        $notification->seen_at = Carbon::now();
-        $notification->save();
+        $this->_notificationsRepositories->seen($id);
         return redirect()->route('home');
     }
 

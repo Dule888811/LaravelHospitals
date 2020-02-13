@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Admin;
 
 use App\Hospital;
 use App\Http\Controllers\Controller;
+use App\Repositories\Admin\UsersRepositories;
+use App\Repositories\Admin\UsersRepositoriesInterface;
 use App\Specialty;
 use App\User;
 use Illuminate\Http\Request;
@@ -19,14 +21,18 @@ class UsersController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function __construct()
+
+    private $_usersRepositories;
+
+    public function __construct(UsersRepositoriesInterface $_usersRepositories)
     {
+        $this->_usersRepositories = $_usersRepositories;
         $this->middleware('auth');
-    } 
+    }
 
     public function index()
     {
-        $users = User::all();
+        $users = $this->_usersRepositories->all();
         return view('admin.user.index')->with(['users' => $users]);
     }
 
@@ -62,16 +68,7 @@ class UsersController extends Controller
             'specialty' => 'required',
             'hospital' => 'required'
         ]);
-
-
-        $user = new User();
-        $user->name = $request->doctor_name;
-        $user->surname = $request->doctor_surname;
-        $user->address = $request->doctor_address;
-        $user->email = $request->email;
-        $user->specialty_id = $request->specialty;
-        $user->hospital_id = $request->hospital;
-        $user->save();
+        $user = $this->_usersRepositories->store($request);
         Mail::to($user)->send(new ProvidePassword($user));
         return redirect()->route('admin.main');
     }

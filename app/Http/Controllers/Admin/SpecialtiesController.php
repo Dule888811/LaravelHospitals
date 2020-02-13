@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Repositories\Admin\SpecialtiesRepositories;
+use App\Repositories\Admin\SpecialtiesRepositoriesInterface;
 use App\Specialty;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
@@ -14,9 +16,17 @@ class SpecialtiesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    private $_specialtiesRepositories;
+
+    public function __construct(SpecialtiesRepositoriesInterface $specialtiesRepositories)
+    {
+        $this->_specialtiesRepositories = $specialtiesRepositories;
+    }
+
     public function index()
     {
-       $specialties = Specialty::all();
+       $specialties = $this->_specialtiesRepositories->all();
         return view('admin.specialties.index')->with(['specialties' => $specialties]);
     }
 
@@ -42,9 +52,7 @@ class SpecialtiesController extends Controller
             'specialtiy_name' => 'required'
 
         ]);
-        $speciality = new Specialty();
-        $speciality->name = $request->specialtiy_name;
-        $speciality->save();
+       $this->_specialtiesRepositories->store($request);
         return redirect()->route('admin.main');
     }
 
@@ -54,17 +62,9 @@ class SpecialtiesController extends Controller
      * @param  \App\Specialty  $specialty
      * @return \Illuminate\Http\Response
      */
-    public function show(Specialty $specialty)
-    {
-        //
-    }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Specialty  $specialty
-     * @return \Illuminate\Http\Response
-     */
+
+
     public function edit(Specialty $specialty)
     {
         return view('admin.specialties.edit')->with(['specialty' => $specialty]);
@@ -79,9 +79,7 @@ class SpecialtiesController extends Controller
      */
     public function update(Request $request, Specialty $specialty)
     {
-
-        $specialty->name = $request->spec;
-        $specialty->update();
+        $this->_specialtiesRepositories->update($request,$specialty);
         return redirect()->route('admin.main');
     }
 
@@ -91,11 +89,7 @@ class SpecialtiesController extends Controller
      * @param  \App\Specialty  $specialty
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Specialty $specialty)
-    {
 
-
-    }
     public function delete($id)
     {
         return view('admin.specialties.delete')->with(['id' => $id]);
@@ -103,10 +97,7 @@ class SpecialtiesController extends Controller
 
     public function deleted($id)
     {
-        $specialty  = Specialty::find($id);
-        $specialty->active = 0;
-        $specialty->deleted_at = Carbon::now();
-        $specialty->update();
+        $this->_specialtiesRepositories->deleted($id);
         return redirect()->route('admin.main');
     }
 }
