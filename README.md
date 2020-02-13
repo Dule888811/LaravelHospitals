@@ -17,7 +17,7 @@ needs to provide password which he will use for logging in. After he successfull
 password, he will be redirected to the page where his notifications are listed (described bellow).
 He can read his notifications. After he read notification, he can announce notification as seen.
 System should log date and time when doctor saw notification.
-Administrator can send notifications to doctors.Password for admin is admin and for users is
+Administrator can send notifications to doctors.Password for admin is admin and for doctors is
 password.
 
 
