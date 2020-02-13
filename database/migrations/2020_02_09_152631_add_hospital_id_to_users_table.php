@@ -15,7 +15,7 @@ class AddHospitalIdToUsersTable extends Migration
     {
         Schema::enableForeignKeyConstraints();
         Schema::table('users', function (Blueprint $table) {
-            $table->Integer('hospital_id')->unsigned()->index()->nullable();
+            $table->integer('hospital_id')->unsigned()->index()->nullable();
             $table->foreign('hospital_id')->references('id')
                 ->on('users')
                 ->onDelete('cascade');
