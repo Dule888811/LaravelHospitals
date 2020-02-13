@@ -21,8 +21,10 @@ class UsersRepositories implements UsersRepositoriesInterface
         $user->surname = $request->doctor_surname;
         $user->address = $request->doctor_address;
         $user->email = $request->email;
-        $user->specialty_id = $request->specialty;
-        $user->hospital_id = $request->hospital;
+       // $user->attach($request->specialty);
+      //  $user->attach($request->hospital);
+        $user->Specialty()->associate($request->specialty);
+        $user->Hospital()->associate($request->hospital);
         $user->save();
         return $user;
     }
